@@ -1,0 +1,18 @@
+header {
+    margin: 50px auto auto 100px;
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: #ffff;
+    font-weight: 600;
+}
+
+body {
+    background-color: #a40000;
+}
+
+#wrapper {
+    background-color: #ffff;
+    width: 1000px;
+    margin: 5px auto auto 100px;
+    padding: 10px 20px 20px 20px;
+}
