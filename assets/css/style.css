@@ -177,3 +177,59 @@ header {
 }
 
 /*Engel's Styles end*/
+
+/* ===================================================================================== */
+/* CONTACT/ABOUT */
+
+section #bloggers {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#blogContainer {
+  background-color: #fbece3;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 36px;
+  initial-letter: 2px;
+  text-align: center;
+  font-family: "Caveat Brush";
+  position: relative;
+}
+
+.card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  background-color: #ebeefb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+  z-index: 999;
+  border: 8px solid #fcb40a;
+}
+/* ===================================================================================== */
