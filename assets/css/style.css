@@ -1,33 +1,67 @@
 * {
   margin: 0px;
-  padding: 0px;  
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
-    background-color: #a40000;
+  background-color: #a40000;
 }
 
 #wrapper {
-    background-color: #ffff;
-    width: 1000px;
-    margin: 5px auto auto 100px;
-    padding: 10px 20px 20px 20px;
+  background-color: #ffff;
+  width: 1000px;
+  margin: 5px auto auto 100px;
+  padding: 10px 20px 20px 20px;
 }
+/* ===================================================================================== */
+/* NAVBAR */
+/* Same navigation will be on each page */
+
+.navbar {
+  background-color: #fcb40a !important;
+  margin-top: -25px;
+}
+
+.navbar-brand h3 {
+  display: inline;
+  font-family: "Caveat Brush";
+}
+
+.navbar-nav {
+  flex-direction: row;
+  margin-right: 25px;
+  padding: 15px;
+  margin-top: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 20px;
+}
+
+.nav-item a.hover {
+  font-weight: bolder;
+}
+
+p {
+  font-size: 15px;
+}
+/* ============================================================================================ */
 
 /*Engel's Styles*/
 
-#recTab h4
-{
-    font-size: x-large;
+#recTab h4 {
+  font-size: x-large;
 }
 
-#recTab article
-{margin-bottom: 20px;}
+#recTab article {
+  margin-bottom: 20px;
+}
 
-#header
-{
-    height: auto;
+#header {
+  height: auto;
 }
 
 .row::after {
@@ -42,55 +76,160 @@ body {
   /*border: 1px solid red;*/
 }
 
-.col-1 {width: 8.33%  !important;}
-.col-2 {width: 16.66% !important;}
-.col-3 {width: 25% !important;}
-.col-4 {width: 33.33% !important;}
-.col-5 {width: 41.66% !important;}
-.col-6 {width: 50% !important;}
-.col-7 {width: 58.33% !important;}
-.col-8 {width: 66.66% !important;}
-.col-9 {width: 75% !important;}
-.col-10 {width: 83.33% !important;}
-.col-11 {width: 91.66% !important;}
-.col-12 {width: 100% !important;}
+.col-1 {
+  width: 8.33% !important;
+}
+.col-2 {
+  width: 16.66% !important;
+}
+.col-3 {
+  width: 25% !important;
+}
+.col-4 {
+  width: 33.33% !important;
+}
+.col-5 {
+  width: 41.66% !important;
+}
+.col-6 {
+  width: 50% !important;
+}
+.col-7 {
+  width: 58.33% !important;
+}
+.col-8 {
+  width: 66.66% !important;
+}
+.col-9 {
+  width: 75% !important;
+}
+.col-10 {
+  width: 83.33% !important;
+}
+.col-11 {
+  width: 91.66% !important;
+}
+.col-12 {
+  width: 100% !important;
+}
 
 [class*="row-"] {
   float: left;
 }
 
-.row-1 {height: 10px}
-.row-2 {height: 20px}
-.row-3 {height: 30px}
-.row-4 {height: 40px}
-.row-5 {height: 50px}
-.row-6 {height: 60px}
-.row-7 {height: 70px}
-.row-8 {height: 80px}
-.row-9 {height: 90px}
-.row-10 {height: 100px}
-.row-11 {height: 150px}
-.row-12 {height: 200px}
-.row-13 {height: 300px}
-.row-14 {height: 1000px}
-.row-15 {height: 2000px}
+.row-1 {
+  height: 10px;
+}
+.row-2 {
+  height: 20px;
+}
+.row-3 {
+  height: 30px;
+}
+.row-4 {
+  height: 40px;
+}
+.row-5 {
+  height: 50px;
+}
+.row-6 {
+  height: 60px;
+}
+.row-7 {
+  height: 70px;
+}
+.row-8 {
+  height: 80px;
+}
+.row-9 {
+  height: 90px;
+}
+.row-10 {
+  height: 100px;
+}
+.row-11 {
+  height: 150px;
+}
+.row-12 {
+  height: 200px;
+}
+.row-13 {
+  height: 300px;
+}
+.row-14 {
+  height: 1000px;
+}
+.row-15 {
+  height: 2000px;
+}
 
 header {
-    margin: 50px auto auto 100px;
-    font-family: Helvetica, sans-serif;
-    font-size: 30px;
-    color: #ffff;
-    font-weight: 600;
+  margin: 50px auto auto 100px;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: #ffff;
+  font-weight: 600;
 }
 
-#food
-{
-    background: url("../images/imgFullBreakfast.jpg") center;
-    background-size: cover;
+#food {
+  background: url("../images/imgFullBreakfast.jpg") center;
+  background-size: cover;
 }
-           
 
+/*Engel's Styles end*/
 
+/* ===================================================================================== */
+/* CONTACT/ABOUT */
 
+section #bloggers {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-            /*Engel's Styles end*/ 
+#blogContainer {
+  background-color: #fbece3;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 36px;
+  initial-letter: 2px;
+  text-align: center;
+  font-family: "Caveat Brush";
+  position: relative;
+}
+
+.card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  background-color: #ebeefb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+  z-index: 999;
+  border: 8px solid #fcb40a;
+}
+/* ===================================================================================== */
