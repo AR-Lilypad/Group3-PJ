@@ -41,6 +41,7 @@ body {
 
 .navbar-nav .nav-link {
   padding-right: 20px;
+  font-size: 18px;
 }
 
 .nav-item a.hover {
