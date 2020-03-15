@@ -19,12 +19,14 @@ body {
 /* Same navigation will be on each page */
 
 .navbar {
+  height: 120px;
   background-color: #fcb40a !important;
-  margin-top: -25px;
+  margin-top: -11px;
 }
 
 .navbar-brand h3 {
   display: inline;
+  vertical-align: middle;
   font-family: "Caveat Brush";
 }
 
@@ -179,8 +181,9 @@ header {
 /*Engel's Styles end*/
 
 /* ===================================================================================== */
-/* CONTACT/ABOUT */
+/* CONTACT/ABOUT PAGE */
 
+/* middle-section bloggerCards */
 section #bloggers {
   margin: 0;
   padding: 0;
@@ -189,15 +192,16 @@ section #bloggers {
 
 #blogContainer {
   background-color: #fbece3;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  
   flex-direction: row;
 }
 
-.title {
+#title {
+  /* height: 100px; */
+  /* margin-bottom: 10px; */
   text-transform: uppercase;
-  font-size: 36px;
-  initial-letter: 2px;
+  font-size: 20px;
   text-align: center;
   font-family: "Caveat Brush";
   position: relative;
@@ -206,6 +210,7 @@ section #bloggers {
 .card-wrapper {
   margin-top: 20px;
   display: flex;
+  justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: row;
@@ -232,4 +237,33 @@ section #bloggers {
   z-index: 999;
   border: 8px solid #fcb40a;
 }
+/* _______________________________________________________________________________________ */
+/* CONTACT CARD */
+.contactME {
+  margin: 5% 20% 3% 20%;
+  border-radius: 15px;
+  padding: 25px;
+  background-color: #ebeefb;
+  }
+
+  .form-row {
+    margin: -35px 0;
+  }
+
+  #submit_button {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+/* _____________________________________________________________________________________ */
+/* FOOTER */
+
+footer .navbar p {
+  color: #000;
+  font-size: 14px;
+}
+footer .navbar {
+  height: 50px;
+  background-color: #fcb40a !important;
+  
+
 /* ===================================================================================== */
