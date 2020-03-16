@@ -31,17 +31,16 @@ body {
 }
 
 .navbar-nav {
-  flex-direction: row;
-  margin-right: 25px;
+  margin: 0 2% 0 65%;
   padding: 15px;
   margin-top: 18px;
   color: #000;
   font-weight: bold;
+  font-size: 18px;
 }
 
-.navbar-nav .nav-link {
-  padding-right: 20px;
-  font-size: 18px;
+#navbarNavDropdown {
+  display: inline;
 }
 
 .nav-item a.hover {
@@ -51,6 +50,8 @@ body {
 p {
   font-size: 15px;
 }
+
+
 /* ============================================================================================ */
 
 /*Engel's Styles*/
@@ -266,5 +267,25 @@ footer .navbar {
   height: 50px;
   background-color: #fcb40a !important;
   
+  /*_____________MediaQueries______________________________________________________________________*/
+  
+ @media screen and (min-width: 750px) {
+
+  label {
+    display: block ;
+    cursor: pointer;
+  }
+
+
+  .card-text p {
+    font-size: 12px;
+    }
+
+  .card {
+    flex-direction: column;
+      width: 100%;
+      font-size: 12px;
+    }
+  }
 
 /* ===================================================================================== */
