@@ -41,7 +41,7 @@ body {
 }
 
 .nav-item {
-  text-align: right;
+  /* text-align: right; */
   background-color: #fcb40a;
   padding-right: 20px;
 }
