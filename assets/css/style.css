@@ -31,16 +31,19 @@ body {
 }
 
 .navbar-nav {
-  margin: 0 2% 0 65%;
-  padding: 15px;
-  margin-top: 18px;
+  padding-top: 5px;  
+  margin-top: -36px;
+  margin-left: 20em;
   color: #000;
   font-weight: bold;
   font-size: 18px;
+  width: 150px;
 }
 
-#navbarNavDropdown {
-  display: inline;
+.nav-item {
+  text-align: right;
+  background-color: #fcb40a;
+  padding-right: 20px;
 }
 
 .nav-item a.hover {
@@ -270,12 +273,6 @@ footer .navbar {
   /*_____________MediaQueries______________________________________________________________________*/
   
  @media screen and (min-width: 750px) {
-
-  label {
-    display: block ;
-    cursor: pointer;
-  }
-
 
   .card-text p {
     font-size: 12px;
