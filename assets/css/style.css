@@ -178,9 +178,21 @@ header {
   font-weight: 600;
 }
 
-#food {
-  background: url("../images/imgFullBreakfast.jpg") center;
+.food {
   background-size: cover;
+}
+
+.bgFullBr {
+  background: url("../images/imgFullBreakfast.jpg") center;
+}
+
+.bgBurr {
+  background: url("../images/imgBurrito.jpg") center;
+  background-size: cover;
+}
+
+.bgBurg {
+  background: url("../images/imgBurg.jpg") center;
 }
 
 /*Engel's Styles end*/
